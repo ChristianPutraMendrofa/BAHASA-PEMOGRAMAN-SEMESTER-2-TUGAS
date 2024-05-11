@@ -1,0 +1,42 @@
+"@startuml pert6"
+
+start
+
+:Menampilkan Menu Utama;
+:Memilih Menu (Teh/Kopi/Keluar);
+
+if (Pilihan Menu == Teh) then (true)
+  :Menampilkan Menu Teh;
+  :Memilih Sub-Menu (Harga/Qty/Total/Kembali);
+
+  if (Pilihan Sub-Menu == Harga) then (true)
+    :Menampilkan Harga Teh;
+  elseif (Pilihan Sub-Menu == Qty) then (true)
+    :Memasukkan Jumlah Teh yang Ingin Dibeli;
+  elseif (Pilihan Sub-Menu == Total) then (true)
+    :Menghitung Total Harga Teh;
+  else (Kembali)
+    :Kembali ke Menu Utama;
+  endif
+
+elseif (Pilihan Menu == Kopi) then (true)
+  :Menampilkan Menu Kopi;
+  :Memilih Sub-Menu (Harga/Qty/Total/Kembali);
+
+  if (Pilihan Sub-Menu == Harga) then (true)
+    :Menampilkan Harga Kopi;
+  elseif (Pilihan Sub-Menu == Qty) then (true)
+    :Memasukkan Jumlah Kopi yang Ingin Dibeli;
+  elseif (Pilihan Sub-Menu == Total) then (true)
+    :Menghitung Total Harga Kopi;
+  else (Kembali)
+    :Kembali ke Menu Utama;
+  endif
+
+else (Keluar)
+  :Keluar dari Program;
+endif
+
+stop
+
+@enduml

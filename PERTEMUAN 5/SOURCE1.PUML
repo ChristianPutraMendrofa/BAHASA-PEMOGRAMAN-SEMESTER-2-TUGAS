@@ -1,0 +1,12 @@
+@startpuml source1
+
+title "Alur program"
+start
+:display menu;
+'epeat
+    :input pilihan;
+    if (pilihan == 1) then (true)
+        :masukkan nama depan;
+        :masukkan nama tengah;
+        :masukkan nama akhir;
+        :tampilan full name;
