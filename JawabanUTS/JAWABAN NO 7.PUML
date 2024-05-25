@@ -1,0 +1,36 @@
+@startuml
+
+start
+
+:Masukkan angka pertama dan angka kedua untuk melakukan operasi berikut;
+:masukkan angka pertama;
+:masukkan angka kedua;
+
+:penjumlahan: angka1 + angka2;
+:menampilkan hasil penjumlahan;
+
+:masukkan angka pertama;
+:masukkan angka kedua;
+
+:pengurangan: angka1 - angka2;
+:menampilkan hasil pengurangan;
+
+:masukkan angka pertama;
+:masukkan angka kedua;
+
+:perkalian: angka1 * angka2;
+:menampilkan hasil perkalian;
+
+:masukkan angka pertama;
+:masukkan angka kedua;
+
+if (angka2 != 0) then (yes)
+    :pembagian: angka1 / angka2;
+    :menampilkan hasil pembagian;
+else (no)
+    :menampilkan Error: Pembagian dengan nol tidak diperbolehkan;
+endif
+
+stop
+
+@enduml
