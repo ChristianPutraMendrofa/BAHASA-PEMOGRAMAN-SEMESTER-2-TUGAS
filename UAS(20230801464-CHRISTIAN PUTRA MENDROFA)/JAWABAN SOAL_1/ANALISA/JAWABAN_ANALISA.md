@@ -1,0 +1,2 @@
+# 1. jelaskan menurut anda apa itu function dan recursive di python
+Fungsi adalah blok kode yang terorganisir dan dapat digunakan kembali yang digunakan untuk melakukan satu tindakan terkait. Fungsi memberikan modularitas yang lebih baik untuk aplikasi Anda dan tingkat penggunaan kode yang tinggi. Python menyediakan banyak fungsi bawaan seperti print(), tetapi Anda juga dapat membuat fungsi Anda sendiri. Fungsi didefinisikan menggunakan kata kunci def, diikuti oleh nama fungsi dan parameter opsional dalam tanda kurung
